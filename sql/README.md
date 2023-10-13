@@ -12,5 +12,5 @@ DATE_FORMAT(R.CREATED_DATE, '%Y-%m-%d')
 WHERE joined.in IS NULL
 
 -- (x)
-WHERE joined.in=NULL
+WHERE joined.in = NULL
 ```
