@@ -14,3 +14,6 @@ WHERE joined.in IS NULL
 -- (x)
 WHERE joined.in = NULL
 ```
+## 23-10-4주차
+* 반올림: `ROUND(숫자,반올림할 자릿수)`, 숫자를 반올림할 자릿수 +1 자릿수에서 반올림
+* 버림: `TRUNCATE(숫자,버릴 자릿수)`, 숫자를 버릴 자릿수 아래로 버림
