@@ -5,3 +5,4 @@
 [정리](https://github.com/hufs71/code-study/blob/master/python/README.md)
 
 ## ☁️ sql
+[정리](https://github.com/hufs71/code-study/blob/master/sql/README.md)
