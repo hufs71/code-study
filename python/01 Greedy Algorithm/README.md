@@ -1,7 +1,7 @@
 ## 📚 Greedy Algorithm
 ![greedy-optimal](https://github.com/hufs71/code-study/assets/115367115/fb859a05-00bc-4be6-be9d-610f4aabffee)
 
-
+* Greedy, 탐욕 알고리즘
 * 현재 상황에서 지금 당장 좋은 것만 고르는 방법
 * 키워드: `가장 큰 순서대로`, `가장 작은 순서대로`
 * 정렬 알고리즘과 짝을 이뤄 자주 출제
