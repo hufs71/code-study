@@ -7,7 +7,7 @@
 ### 📑 구현
 * 이론
 * 문제
- * 백준 2979 - 트럭 주차 [풀이](https://github.com/hufs71/code-study/tree/master/python/02%20%EA%B5%AC%ED%98%84)
+  * 백준 2979 - 트럭 주차 [풀이](https://github.com/hufs71/code-study/tree/master/python/02%20%EA%B5%AC%ED%98%84)
 ### 📑 DFS, BFS
 ### 📑 정렬
 ### 📑 이진탐색
