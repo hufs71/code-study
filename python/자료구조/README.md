@@ -69,7 +69,7 @@ collections 모듈에서 제공하는 deque 클래스로 구현 가능
 - popleft(): 왼쪽에서 데이터 삭제
 
 #### 덱 예제
-```
+```python
 from collections import deque
 
 queue = deque()
