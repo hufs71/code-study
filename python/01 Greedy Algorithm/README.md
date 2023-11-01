@@ -18,5 +18,6 @@
 ---
 ### 문제 
 * 백준 5585 - 거스름돈 [풀이](https://github.com/hufs71/code-study/blob/master/python/01%20Greedy%20Algorithm/greedy_5585.py)
+* 프로그래머스 - 체육복 [풀이](https://github.com/hufs71/code-study/blob/master/python/01%20Greedy%20Algorithm/%EC%B2%B4%EC%9C%A1%EB%B3%B5.py)
 ---
 [참고1](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)
