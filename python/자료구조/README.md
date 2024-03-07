@@ -105,9 +105,58 @@ print(queue)
 # 결과
 deque([1])
 ```
----
+
 [참고1](https://velog.io/@falling_star3/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9DStack%ED%81%90Queue%EB%8D%B1Deque)
 [참고2](https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-Stack-%ED%81%90-Queue-%EB%8D%B1-Deque)
 
+---
 
 ## ☁️ 그래프
+![asf](https://github.com/hufs71/code-study/assets/115367115/3e154f3b-6f2e-4ad7-81d3-346fb5f6907f)
+> - 노드, Node (정점, Vortex)
+> - 간선, Edge
+> - 두 node가 edge로 연결되어 있다면 '두 node는 인접하다(adjacent)'라고 표현
+
+### 그래프를 표현하는 두 가지 방식
+1. 인접 행렬(Adjacency Matrix): 2차원 배열로 그래프의 연결 관계를 표현하는 방식
+2. 인접 리스트(Adjacency List): 리스트로 그래프의 연결 관계를 표현하는 방식
+
+인접 행렬 방식 예제
+```py
+INF = 99999999999 # 무한의 비용 선언
+
+# 2차원 리스트를 이용해 인접 행렬 표현
+graph = [
+   [0, 7, 5],
+   [7, 0, INF],
+   [5, INF, 0]
+]
+
+print(graph)
+
+#########
+# 결과
+# [[0, 7, 5], [7, 0, 99999999999], [5, 99999999999, 0]]
+```
+
+인접 리스트 방식 예제
+```py
+# 행(row)이 3개인 2차원 리스트로 인접 리스트 표현
+graph = [[] for _ in range(3)]
+
+# 노드 0에 연결된 노드 정보 저장(노드, 거리)
+graph[0].append((1, 7))
+graph[0].append((2, 5))
+
+# 노드 1에 연결된 노드 정보 저장(노드, 거리)
+graph[1].append((0, 7))
+
+# 노드 2에 연결된 노드 정보 저장(노드, 거리)
+graph[2].append((0, 5))
+
+print(graph)
+
+###########
+# 결과
+# [[(1, 7), (2, 5)], [(0, 7)], [(0, 5)]]
+```
