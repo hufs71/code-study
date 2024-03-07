@@ -112,7 +112,8 @@ deque([1])
 ---
 
 ## ☁️ 그래프
-![asf](https://github.com/hufs71/code-study/assets/115367115/3e154f3b-6f2e-4ad7-81d3-346fb5f6907f)
+![asdf](https://github.com/hufs71/code-study/assets/115367115/2b7341b5-f8b2-49d3-aedb-4ac62d5bc2e8)
+
 > - 노드, Node (정점, Vortex)
 > - 간선, Edge
 > - 두 node가 edge로 연결되어 있다면 '두 node는 인접하다(adjacent)'라고 표현
