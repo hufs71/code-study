@@ -4,7 +4,7 @@
 * 이론
 * 문제
   * [백준 2979 - 트럭 주차](https://github.com/hufs71/code-study/tree/master/python/02%20%EA%B5%AC%ED%98%84)
-### 📑 [DFS, BFS](https://github.com/hufs71/code-study/tree/master/python/03%20DFS%2C%20BFS)
+### 📑 [DFS, BFS](https://github.com/hufs71/code-study/blob/master/python/03%20DFS%2C%20BFS/readme.md)
 ### 📑 정렬
 ### 📑 이진탐색
 ### 📑 다이나믹 프로그래밍
